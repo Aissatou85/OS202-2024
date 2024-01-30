@@ -34,6 +34,16 @@ jki:1.15643/1851.56;
 kji:1.12651/1895.68;
 
 
-La boucle i est celle qui varie le plus.Lorsque la boucle i et k sont celles qui varient le plus rapidement, on a des meilleurs résultats.
+La boucle i est celle qui varie le plus.Lorsque la boucle i et k sont celles qui varient le plus rapidement, on a des meilleurs résultats. 
 Lorsque j varie le plus vite(dernière boucle) on a les pires résultats.
 
+
+3. On a définit la procédure void setNbThreads(int n) dans le fichier ProdMatMat.cpp en utilisant omp_set_num_threds(nombre_of_threads).Nous utilisons ensuite cette fonction dans  TestProductMatrix.cpp pour faire varier le nombre de threads. On constate que plus le nombre de threads augmente plus le temps est petit.
+
+
+
+II. Parallélisation MPI
+
+1. Le code python s'appelle circulation_jeton.py
+2. 
+   
