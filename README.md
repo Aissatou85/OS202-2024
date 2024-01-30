@@ -20,12 +20,19 @@ Le CPU n'accède jamais à la mémoire RAM directement, il transite par les diff
 En conclusion, la position d'une variable dans la mémoire impacte considérablement le temps d'exécution d'un programme.
 
 2. Permutons
+   
    temps CPU/MFlops
-jik: 1.12735/1899.32
-ikj: 1.14361/1872.31
-kij:1.12256/1907.43
-jki:1.15643/1851.56
-kji:1.12651/1895.68
+   
+jik: 1.12735/1899.32;
+
+ikj: 1.14361/1872.31;
+
+kij:1.12256/1907.43;
+
+jki:1.15643/1851.56;
+
+kji:1.12651/1895.68;
+
 
 La boucle i est celle qui varie le plus.Lorsque la boucle i et k sont celles qui varient le plus rapidement, on a des meilleurs résultats.
 Lorsque j varie le plus vite(dernière boucle) on a les pires résultats.
