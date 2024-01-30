@@ -5,9 +5,12 @@
 I.Produit matrice-matrice:
 
 1. Temps de calcul du produit matrice-matrice:
-1023: 1.12735 s
-1024:2.50776 s
-1025:1.12799 s
+   
+1023: 1.12735 s;
+
+1024:2.50776 s;
+
+1025:1.12799 s;
 
 Les temps d'exécution obtenu sont absurdes car très différents. On calcule le produit de deux matrices, la façon dont les matrices sont stockées utilisent des tableaux de pointeurs. La matrice est rangée suivant les colonnes(colonne 1, colonne 2...).
 Le processeur accède plus facilement aux valeurs de la 2e matrice car les valeurs sont stockées en colonnes donc pour la première matrice on a plutot besoin des données par ligne.
